@@ -1,0 +1,54 @@
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+}
+
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}
+
+table.color_line tr:nth-child(2n+0) td {
+
+background-color: #A1CDFB;
+
+}
+
+
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #A1CDFB;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #D2E7FC;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
